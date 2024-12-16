@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#a29bfe"
+    tools:context=".MainActivity">
+
+    <!-- Quote of the Day TextView -->
+    <TextView
+        android:id="@+id/quoteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your daily quote will appear here."
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- EditText to input a new quote -->
+    <EditText
+        android:id="@+id/quoteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your quote here"
+        android:layout_marginBottom="16dp"
+        android:inputType="text" />
+
+    <!-- Button to save the quote -->
+    <Button
+        android:id="@+id/saveQuoteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Quote" />
+
+</LinearLayout>
